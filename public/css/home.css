@@ -1,0 +1,144 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Promotion Banner */
+.promotion-banner {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.promotion-banner .carousel-item {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 4rem 0;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+.hero-section .btn-primary {
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+}
+
+/* Categories Section */
+.category-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.category-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.category-card .card-body {
+    padding: 1.5rem;
+}
+
+/* Featured Products Section */
+.product-card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.product-card .card-body {
+    padding: 1.25rem;
+}
+
+.product-card .price {
+    font-weight: 700;
+    color: #dc3545;
+    font-size: 1.1rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero-section {
+        text-align: center;
+        padding: 2rem 0;
+    }
+    
+    .hero-section img {
+        margin-top: 2rem;
+    }
+}
+
+/* Add animation to the carousel */
+.carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+/* Custom button styles */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+.btn-outline-primary {
+    color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+    background-color: #0d6efd;
+    color: white;
+}
+
+#back-to-top {
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
+    transform: translateY(20px);
+}
+
+#back-to-top.show {
+    opacity: 1;
+    transform: translateY(0);
+    display: block !important;
+}
+
+.pulse {
+    animation: pulse-animation 0.5s;
+}
+
+@keyframes pulse-animation {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+}
