@@ -13,7 +13,7 @@ class ProductController extends Controller
 
     public function create()
     {
-        echo "Hola desde el controlador create";
+        return view('products.create');
     }
 
     public function show($name)
