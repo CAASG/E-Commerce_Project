@@ -18,6 +18,6 @@ class ProductController extends Controller
 
     public function show($name)
     {
-        echo "Hola desde el controlador show";
+        return view('products.show', ['name' => $name]);
     }
 }

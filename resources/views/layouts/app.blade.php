@@ -12,6 +12,7 @@
     <link href="{{ asset('css/footer.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/products/create.css')}}">
     <link rel="stylesheet" href="{{asset('css/products/index.css')}}">
+    <link rel="stylesheet" href="{{asset('css/products/show.css')}}">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
 </head>
