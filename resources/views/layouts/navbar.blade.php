@@ -10,7 +10,10 @@
                     <a class="nav-link active" href="{{ url('/') }}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/shop') }}">Shop</a>
+                    <a class="nav-link" href="{{ url('/products') }}">Shop</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/products/create') }}">Add Product</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/about') }}">About</a>

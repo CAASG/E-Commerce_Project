@@ -84,8 +84,9 @@
                     <div>
                         <span class="old-price">$1,299.99</span>
                         <span class="price">$1,199.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -102,8 +103,9 @@
                 <div class="product-price">
                     <div>
                         <span class="price">$589.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -122,8 +124,9 @@
                     <div>
                         <span class="old-price">$629.99</span>
                         <span class="price">$599.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -140,8 +143,9 @@
                 <div class="product-price">
                     <div>
                         <span class="price">$119.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -160,8 +164,9 @@
                     <div>
                         <span class="old-price">$249.99</span>
                         <span class="price">$189.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -178,8 +183,9 @@
                 <div class="product-price">
                     <div>
                         <span class="price">$549.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -196,8 +202,9 @@
                 <div class="product-price">
                     <div>
                         <span class="price">$94.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
@@ -215,8 +222,9 @@
                     <div>
                         <span class="old-price">$159.99</span>
                         <span class="price">$139.99</span>
+                        <a href="{{ url('/products/{name}') }}"><button class="add-to-cart">See Details</button></a>
                     </div>
-                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="add-to-cart"><i class="bi bi-cart-plus"></i></button>
                 </div>
             </div>
         </div>
