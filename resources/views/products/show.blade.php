@@ -26,7 +26,9 @@
                 </div>
                 
                 <div class="featured-image">
-                    <img src="/api/placeholder/800/600" alt="NVIDIA GeForce RTX 4080 Super Gaming OC" id="main-product-image">
+                    <img src="{{ $product->url_image ?? 'https://via.placeholder.com/640x400/2A3990/FFFFFF?text=Imagen+Temporal' }}" 
+                    alt="produc-placeholder" 
+                    id="main-product-image">
                 </div>
                 
                 <div class="thumbnail-container">

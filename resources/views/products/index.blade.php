@@ -96,14 +96,5 @@
         {{ $listProducts->links() }}
 
     </div>
- {{--    <!-- Pagination -->
-    <div class="pagination">
-        <button>←</button>
-        <button class="active">1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>→</button>
-    </div> --}}
 </main>    
 @endsection
