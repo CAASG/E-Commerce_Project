@@ -10,7 +10,7 @@ class ProductController extends Controller
     public function index()
     {
 
-        $listProducts = Product::all();
+        $listProducts = Product::paginate();
 
         /* dd($listProducts); */
 
