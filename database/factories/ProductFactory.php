@@ -22,7 +22,7 @@ class ProductFactory extends Factory
             'description' => fake()->paragraph(),
             'price' => fake()->randomFloat(2, 10000, 3000000),
             'categories_id' => Category::inRandomOrder()->first()->id,
-            'url_image' => fake()->imageUrl(640, 400, 'products', true)
+            'url_image' => 'https://placehold.co/600x400/orange/white?text=producto'
         ];
     }
 }
