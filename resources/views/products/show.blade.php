@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.products')
 
 @section('css')
 <link rel="stylesheet" href="{{asset('css/products/show.css')}}">
@@ -326,3 +326,4 @@
 </script>
 
 @endsection
+

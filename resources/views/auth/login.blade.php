@@ -1,13 +1,21 @@
 @extends('layouts.app')
 
+@section('css')
+<link href="{{ asset('css/auth.css') }}" rel="stylesheet">
+@endsection
+
 @section('content')
-<div class="container">
+<div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card auth-card">
                 <div class="card-header">{{ __('Login') }}</div>
 
-                <div class="card-body">
+                <div class="card-body p-4">
+                    <div class="logo-container">
+                        <img src="{{ asset('images/unab_logo.png') }}" alt="UNAB Logo" class="img-fluid">
+                    </div>
+
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
@@ -66,6 +74,9 @@
                         </div>
                     </form>
                 </div>
+            </div>
+            <div class="auth-footer mt-3">
+                <p>Don't have an account? <a href="{{ route('register') }}">Register here</a></p>
             </div>
         </div>
     </div>
